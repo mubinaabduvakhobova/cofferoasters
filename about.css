@@ -1,0 +1,122 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(243, 215, 183, 1);
+}
+.chap {
+  width: 380px;
+  height: 300px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.chap > p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.chap > h1 {
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.ong {
+  position: relative;
+  width: 643px;
+  height: 400px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.ong > h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.ong > p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.ong > img:last-child {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  transform: rotate(-25deg);
+}
+.pag1 {
+  padding: 165px 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section1 {
+  height: 750px;
+  width: 100%;
+}
+.pag2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 510px;
+  position: relative;    
+}
+
+.section2 {
+  background-color: rgba(201, 155, 103, 1);
+}
+
+.nale > h1 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  width: 397px;
+}
+
+.nale > p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  width: 639px;
+  padding-top: 28px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0px;
+  gap: 300px;
+}
+
+.nap>img{
+position: absolute;
+right: 0;
+top: -100px;
+}
